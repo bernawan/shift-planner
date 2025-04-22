@@ -68,7 +68,7 @@ async def cek_shift(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     init_db()
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
+    app = ApplicationBuilder().token(8004694666:AAFu8Elye4z0gnERN3tYa9f7f6t2ci8g8CE).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("run", run_shift))
     app.add_handler(CommandHandler("cek", cek_shift))
