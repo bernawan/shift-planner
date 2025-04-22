@@ -6,7 +6,7 @@ from telegram.ext import (
 from db import init_db, tambah_shift, get_shift_by_tanggal
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8004694666:AAFu8Elye4z0gnERN3tYa9f7f6t2ci8g8CE")
 
 user_steps = {}
 
